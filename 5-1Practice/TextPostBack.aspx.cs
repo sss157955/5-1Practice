@@ -10,5 +10,10 @@ namespace _5_1Practice {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+
+        protected void tbx_Number_TextChanged(object sender, EventArgs e)
+        {
+            lb_Txt.Text = tbx_Number.Text;
+        }
     }
 }

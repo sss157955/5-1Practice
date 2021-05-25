@@ -9,7 +9,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="background-color:blue; height:200px; width:300px; text-align:center; padding:50px 0 0 0">
+            <asp:TextBox ID="tbx_Number" runat="server" AutoPostBack="true" OnTextChanged="tbx_Number_TextChanged"></asp:TextBox><br />
+            <asp:Label ID="lb_Txt" runat="server" Text="Show" ForeColor="White"></asp:Label>
         </div>
     </form>
 </body>
